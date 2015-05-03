@@ -35,6 +35,11 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'sprockets', '~> 3.0.0.beta'
 gem 'sprockets-es6'
 
+source 'https://rails-assets.org' do
+  gem 'rails-assets-es6-module-loader'
+  gem 'rails-assets-system.js'
+end
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
